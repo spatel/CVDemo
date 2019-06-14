@@ -8,11 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		2C2D662A22B29C47000716F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D662922B29C47000716F5 /* AppDelegate.swift */; };
-		2C2D662C22B29C47000716F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D662B22B29C47000716F5 /* ViewController.swift */; };
-		2C2D662F22B29C47000716F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2D662D22B29C47000716F5 /* Main.storyboard */; };
+		2C2D662C22B29C47000716F5 /* CVDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D662B22B29C47000716F5 /* CVDemoViewController.swift */; };
 		2C2D663122B29C4C000716F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2D663022B29C4C000716F5 /* Assets.xcassets */; };
 		2C2D663422B29C4C000716F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2D663222B29C4C000716F5 /* LaunchScreen.storyboard */; };
-		2C2D663F22B29C4C000716F5 /* CVDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D663E22B29C4C000716F5 /* CVDemoTests.swift */; };
+		2C2D664D22B2A5AD000716F5 /* CVDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D664C22B2A5AD000716F5 /* CVDataService.swift */; };
+		2C2D665322B2A6F0000716F5 /* CVModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D665222B2A6F0000716F5 /* CVModel.swift */; };
+		2C2D665522B2A989000716F5 /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D665422B2A989000716F5 /* Dates.swift */; };
+		2C2D665722B2A9A9000716F5 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D665622B2A9A9000716F5 /* UIKit+Extensions.swift */; };
+		2C2D665A22B2ADE8000716F5 /* CVDemoViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D665922B2ADE8000716F5 /* CVDemoViewDataSource.swift */; };
+		2C2D665C22B2B886000716F5 /* CVTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D665B22B2B886000716F5 /* CVTextCell.swift */; };
+		2C2D665E22B2BB6C000716F5 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D665D22B2BB6C000716F5 /* Strings.swift */; };
+		2C2D666122B2BDD6000716F5 /* CVDemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D666022B2BDD6000716F5 /* CVDemoViewModel.swift */; };
+		2C2D666322B2C1C6000716F5 /* CVExperienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D666222B2C1C6000716F5 /* CVExperienceCell.swift */; };
+		2C2D666722B2C35E000716F5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D666622B2C35E000716F5 /* Coordinator.swift */; };
+		2C2D666922B2C373000716F5 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D666822B2C373000716F5 /* RootCoordinator.swift */; };
+		2C2D666B22B2C39B000716F5 /* CVDemoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D666A22B2C39B000716F5 /* CVDemoCoordinator.swift */; };
+		2C2D666F22B2E172000716F5 /* MockCVDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D666E22B2E172000716F5 /* MockCVDataService.swift */; };
+		2C2D667122B2E20B000716F5 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D667022B2E20B000716F5 /* TestData.swift */; };
+		2C2D667322B2E505000716F5 /* CVDemoViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D667222B2E505000716F5 /* CVDemoViewModelTests.swift */; };
+		2C2D667522B2ED33000716F5 /* CVDemoViewDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D667422B2ED33000716F5 /* CVDemoViewDataSourceTests.swift */; };
+		2C2D667822B39566000716F5 /* CVExperienceCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D667722B39566000716F5 /* CVExperienceCellViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +43,30 @@
 /* Begin PBXFileReference section */
 		2C2D662622B29C47000716F5 /* CVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2D662922B29C47000716F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C2D662B22B29C47000716F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C2D662E22B29C47000716F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C2D662B22B29C47000716F5 /* CVDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDemoViewController.swift; sourceTree = "<group>"; };
 		2C2D663022B29C4C000716F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2D663322B29C4C000716F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C2D663522B29C4C000716F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2D663A22B29C4C000716F5 /* CVDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C2D663E22B29C4C000716F5 /* CVDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDemoTests.swift; sourceTree = "<group>"; };
 		2C2D664022B29C4C000716F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2D664C22B2A5AD000716F5 /* CVDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDataService.swift; sourceTree = "<group>"; };
+		2C2D665222B2A6F0000716F5 /* CVModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVModel.swift; sourceTree = "<group>"; };
+		2C2D665422B2A989000716F5 /* Dates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		2C2D665622B2A9A9000716F5 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		2C2D665922B2ADE8000716F5 /* CVDemoViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDemoViewDataSource.swift; sourceTree = "<group>"; };
+		2C2D665B22B2B886000716F5 /* CVTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVTextCell.swift; sourceTree = "<group>"; };
+		2C2D665D22B2BB6C000716F5 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		2C2D666022B2BDD6000716F5 /* CVDemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDemoViewModel.swift; sourceTree = "<group>"; };
+		2C2D666222B2C1C6000716F5 /* CVExperienceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVExperienceCell.swift; sourceTree = "<group>"; };
+		2C2D666622B2C35E000716F5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2C2D666822B2C373000716F5 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		2C2D666A22B2C39B000716F5 /* CVDemoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDemoCoordinator.swift; sourceTree = "<group>"; };
+		2C2D666E22B2E172000716F5 /* MockCVDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCVDataService.swift; sourceTree = "<group>"; };
+		2C2D667022B2E20B000716F5 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		2C2D667222B2E505000716F5 /* CVDemoViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDemoViewModelTests.swift; sourceTree = "<group>"; };
+		2C2D667422B2ED33000716F5 /* CVDemoViewDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDemoViewDataSourceTests.swift; sourceTree = "<group>"; };
+		2C2D667622B2F106000716F5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C2D667722B39566000716F5 /* CVExperienceCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVExperienceCellViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +90,7 @@
 		2C2D661D22B29C47000716F5 = {
 			isa = PBXGroup;
 			children = (
+				2C2D667622B2F106000716F5 /* README.md */,
 				2C2D662822B29C47000716F5 /* CVDemo */,
 				2C2D663D22B29C4C000716F5 /* CVDemoTests */,
 				2C2D662722B29C47000716F5 /* Products */,
@@ -77,9 +109,12 @@
 		2C2D662822B29C47000716F5 /* CVDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2C2D666522B2C34B000716F5 /* Coordinator */,
+				2C2D664922B29C78000716F5 /* Model */,
+				2C2D664A22B29C8A000716F5 /* Service */,
+				2C2D664B22B29CC3000716F5 /* Util */,
+				2C2D665822B2AAC2000716F5 /* Views */,
 				2C2D662922B29C47000716F5 /* AppDelegate.swift */,
-				2C2D662B22B29C47000716F5 /* ViewController.swift */,
-				2C2D662D22B29C47000716F5 /* Main.storyboard */,
 				2C2D663022B29C4C000716F5 /* Assets.xcassets */,
 				2C2D663222B29C4C000716F5 /* LaunchScreen.storyboard */,
 				2C2D663522B29C4C000716F5 /* Info.plist */,
@@ -90,10 +125,86 @@
 		2C2D663D22B29C4C000716F5 /* CVDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				2C2D663E22B29C4C000716F5 /* CVDemoTests.swift */,
+				2C2D666D22B2E152000716F5 /* Mocks */,
+				2C2D666C22B2E145000716F5 /* TestUtil */,
 				2C2D664022B29C4C000716F5 /* Info.plist */,
+				2C2D667222B2E505000716F5 /* CVDemoViewModelTests.swift */,
+				2C2D667422B2ED33000716F5 /* CVDemoViewDataSourceTests.swift */,
+				2C2D667722B39566000716F5 /* CVExperienceCellViewModelTests.swift */,
 			);
 			path = CVDemoTests;
+			sourceTree = "<group>";
+		};
+		2C2D664922B29C78000716F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D665222B2A6F0000716F5 /* CVModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C2D664A22B29C8A000716F5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D664C22B2A5AD000716F5 /* CVDataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2C2D664B22B29CC3000716F5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D665422B2A989000716F5 /* Dates.swift */,
+				2C2D665622B2A9A9000716F5 /* UIKit+Extensions.swift */,
+				2C2D665D22B2BB6C000716F5 /* Strings.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2C2D665822B2AAC2000716F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D665F22B2BCF9000716F5 /* Cells */,
+				2C2D662B22B29C47000716F5 /* CVDemoViewController.swift */,
+				2C2D665922B2ADE8000716F5 /* CVDemoViewDataSource.swift */,
+				2C2D666022B2BDD6000716F5 /* CVDemoViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C2D665F22B2BCF9000716F5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D665B22B2B886000716F5 /* CVTextCell.swift */,
+				2C2D666222B2C1C6000716F5 /* CVExperienceCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2C2D666522B2C34B000716F5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D666622B2C35E000716F5 /* Coordinator.swift */,
+				2C2D666822B2C373000716F5 /* RootCoordinator.swift */,
+				2C2D666A22B2C39B000716F5 /* CVDemoCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2C2D666C22B2E145000716F5 /* TestUtil */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D667022B2E20B000716F5 /* TestData.swift */,
+			);
+			path = TestUtil;
+			sourceTree = "<group>";
+		};
+		2C2D666D22B2E152000716F5 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D666E22B2E172000716F5 /* MockCVDataService.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +290,6 @@
 			files = (
 				2C2D663422B29C4C000716F5 /* LaunchScreen.storyboard in Resources */,
 				2C2D663122B29C4C000716F5 /* Assets.xcassets in Resources */,
-				2C2D662F22B29C47000716F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +307,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2D662C22B29C47000716F5 /* ViewController.swift in Sources */,
+				2C2D665722B2A9A9000716F5 /* UIKit+Extensions.swift in Sources */,
+				2C2D662C22B29C47000716F5 /* CVDemoViewController.swift in Sources */,
+				2C2D666122B2BDD6000716F5 /* CVDemoViewModel.swift in Sources */,
+				2C2D664D22B2A5AD000716F5 /* CVDataService.swift in Sources */,
+				2C2D665322B2A6F0000716F5 /* CVModel.swift in Sources */,
+				2C2D665C22B2B886000716F5 /* CVTextCell.swift in Sources */,
+				2C2D666B22B2C39B000716F5 /* CVDemoCoordinator.swift in Sources */,
+				2C2D665A22B2ADE8000716F5 /* CVDemoViewDataSource.swift in Sources */,
 				2C2D662A22B29C47000716F5 /* AppDelegate.swift in Sources */,
+				2C2D666722B2C35E000716F5 /* Coordinator.swift in Sources */,
+				2C2D665E22B2BB6C000716F5 /* Strings.swift in Sources */,
+				2C2D666922B2C373000716F5 /* RootCoordinator.swift in Sources */,
+				2C2D665522B2A989000716F5 /* Dates.swift in Sources */,
+				2C2D666322B2C1C6000716F5 /* CVExperienceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +328,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2D663F22B29C4C000716F5 /* CVDemoTests.swift in Sources */,
+				2C2D667122B2E20B000716F5 /* TestData.swift in Sources */,
+				2C2D666F22B2E172000716F5 /* MockCVDataService.swift in Sources */,
+				2C2D667322B2E505000716F5 /* CVDemoViewModelTests.swift in Sources */,
+				2C2D667522B2ED33000716F5 /* CVDemoViewDataSourceTests.swift in Sources */,
+				2C2D667822B39566000716F5 /* CVExperienceCellViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +347,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2C2D662D22B29C47000716F5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C2D662E22B29C47000716F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C2D663222B29C4C000716F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
