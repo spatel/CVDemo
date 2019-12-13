@@ -45,7 +45,7 @@ public extension Date {
                     second: Int? = nil,
                     nanosecond: Int? = nil) -> Date? {
         
-        var cal = Calendar.gregorianUTC
+        let cal = Calendar.gregorianUTC
         let comps = DateComponents(calendar: cal,
                                    timeZone: cal.timeZone,
                                    year: year,
